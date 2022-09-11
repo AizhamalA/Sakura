@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./taun/header-bg-1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    height: 10vh;
+}
+.left{
+     width: 50%;
+     display: inline-block;
+}
+.right{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.left img{
+    width: 100%;
+}
+.right img{
+    height: 40px;
+}
+.right span{
+    font-size: 1.3em;
+}
